@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Stock Trading App Storage</title>
+</head>
+<body>
+    <h1>Clear Storage</h1>
+    <p>This will clear the localStorage and reset to default Indian stocks.</p>
+    <button onclick="clearStorage()">Clear Storage & Reset</button>
+    <div id="result"></div>
+
+    <script>
+        function clearStorage() {
+            try {
+                // Clear stock watchlist
+                localStorage.removeItem('stockWatchlist');
+                
+                // Set default Indian stocks
+                const defaultStocks = ['RELIANCE', 'TCS', 'INFY', 'HDFCBANK', 'ICICIBANK'];
+                localStorage.setItem('stockWatchlist', JSON.stringify(defaultStocks));
+                
+                document.getElementById('result').innerHTML = '<p style="color: green;">Storage cleared and reset to default Indian stocks: ' + defaultStocks.join(', ') + '</p>';
+                
+                // Redirect to main app after 2 seconds
+                setTimeout(() => {
+                    window.location.href = '/';
+                }, 2000);
+                
+            } catch (error) {
+                document.getElementById('result').innerHTML = '<p style="color: red;">Error: ' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>
