@@ -1,0 +1,1098 @@
+2025/09/06 14:28:47.820232 [2025-09-06 14:28:47.820] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:28:47.823199 [2025-09-06 14:28:47.823] [ERROR] [trading-engine] Failed to initialize database: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:29:25.387150 [2025-09-06 14:29:25.387] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:29:25.390141 [2025-09-06 14:29:25.390] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:29:25.459494 [2025-09-06 14:29:25.459] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:29:25.459587 [2025-09-06 14:29:25.459] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:29:25.887287 [2025-09-06 14:29:25.887] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:29:26.221017 [2025-09-06 14:29:26.221] [INFO] [trading-engine] candles=200 symbol=BTCUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:29:26.547501 [2025-09-06 14:29:26.547] [INFO] [trading-engine] symbol=ETHUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:26.928782 [2025-09-06 14:29:26.928] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:27.064862 [2025-09-06 14:29:27.064] [INFO] [trading-engine] symbol=XRPUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:27.193590 [2025-09-06 14:29:27.193] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:27.327489 [2025-09-06 14:29:27.327] [INFO] [trading-engine] symbol=SOLUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:27.657199 [2025-09-06 14:29:27.657] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:27.986628 [2025-09-06 14:29:27.986] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:28.110168 [2025-09-06 14:29:28.110] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:29:28.464566 [2025-09-06 14:29:28.464] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:29:28.464720 [2025-09-06 14:29:28.464] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:29:28.464817 [2025-09-06 14:29:28.464] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:29:28.464877 [2025-09-06 14:29:28.464] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:29:28.464878 [2025-09-06 14:29:28.464] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:29:28.464916 [2025-09-06 14:29:28.464] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:29:28.465239 [2025-09-06 14:29:28.465] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:29:39.142046 [2025-09-06 14:29:39.142] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:29:49.241822 [2025-09-06 14:29:49.241] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:29:50.562727 [2025-09-06 14:29:50.562] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 14:29:50.562943 [2025-09-06 14:29:50.562] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 14:29:50.562963 [2025-09-06 14:29:50.562] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 14:29:50.562973 [2025-09-06 14:29:50.562] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 14:31:54.975443 [2025-09-06 14:31:54.975] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:31:54.977090 [2025-09-06 14:31:54.977] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:31:55.046568 [2025-09-06 14:31:55.046] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:31:55.046645 [2025-09-06 14:31:55.046] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:31:55.459308 [2025-09-06 14:31:55.459] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:31:55.814847 [2025-09-06 14:31:55.814] [INFO] [trading-engine] symbol=BTCUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:31:55.943964 [2025-09-06 14:31:55.943] [INFO] [trading-engine] interval=5m candles=200 symbol=ETHUSDT Successfully fetched historical klines
+2025/09/06 14:31:56.326068 [2025-09-06 14:31:56.326] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:31:56.451129 [2025-09-06 14:31:56.451] [INFO] [trading-engine] interval=5m candles=200 symbol=XRPUSDT Successfully fetched historical klines
+2025/09/06 14:31:56.787718 [2025-09-06 14:31:56.787] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:31:57.117956 [2025-09-06 14:31:57.117] [INFO] [trading-engine] candles=200 symbol=SOLUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:31:57.446659 [2025-09-06 14:31:57.446] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:31:57.768075 [2025-09-06 14:31:57.768] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:31:58.090448 [2025-09-06 14:31:58.090] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:31:58.224153 [2025-09-06 14:31:58.224] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:31:58.224310 [2025-09-06 14:31:58.224] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:31:58.224411 [2025-09-06 14:31:58.224] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:31:58.224498 [2025-09-06 14:31:58.224] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:31:58.224522 [2025-09-06 14:31:58.224] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:31:58.224537 [2025-09-06 14:31:58.224] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:31:58.224848 [2025-09-06 14:31:58.224] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:32:08.882630 [2025-09-06 14:32:08.882] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:32:18.886918 [2025-09-06 14:32:18.886] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:32:29.293852 [2025-09-06 14:32:29.293] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:32:38.885098 [2025-09-06 14:32:38.884] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:32:49.132101 [2025-09-06 14:32:49.132] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:32:58.937139 [2025-09-06 14:32:58.937] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:33:09.063975 [2025-09-06 14:33:09.063] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:33:18.883812 [2025-09-06 14:33:18.883] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:33:29.306589 [2025-09-06 14:33:29.306] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:33:38.877776 [2025-09-06 14:33:38.877] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:33:48.879836 [2025-09-06 14:33:48.879] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:33:54.021332 [2025-09-06 14:33:54.021] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 14:33:54.021446 [2025-09-06 14:33:54.021] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 14:33:54.021458 [2025-09-06 14:33:54.021] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 14:33:54.021464 [2025-09-06 14:33:54.021] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 14:36:22.559018 [2025-09-06 14:36:22.559] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:36:22.561313 [2025-09-06 14:36:22.561] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:36:22.631363 [2025-09-06 14:36:22.631] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:36:22.631437 [2025-09-06 14:36:22.631] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:36:23.077795 [2025-09-06 14:36:23.077] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:36:23.482550 [2025-09-06 14:36:23.482] [INFO] [trading-engine] symbol=BTCUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:36:23.815372 [2025-09-06 14:36:23.815] [INFO] [trading-engine] interval=5m candles=200 symbol=ETHUSDT Successfully fetched historical klines
+2025/09/06 14:36:23.958820 [2025-09-06 14:36:23.958] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:36:24.285313 [2025-09-06 14:36:24.285] [INFO] [trading-engine] candles=200 symbol=XRPUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:36:24.621017 [2025-09-06 14:36:24.621] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:36:24.952654 [2025-09-06 14:36:24.952] [INFO] [trading-engine] candles=200 symbol=SOLUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:36:25.127708 [2025-09-06 14:36:25.127] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:36:25.836565 [2025-09-06 14:36:25.836] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:36:26.179553 [2025-09-06 14:36:26.179] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:36:26.497121 [2025-09-06 14:36:26.497] [INFO] [trading-engine] interval=5m candles=200 symbol=DOTUSDT Successfully fetched historical klines
+2025/09/06 14:36:26.497203 [2025-09-06 14:36:26.497] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:36:26.497259 [2025-09-06 14:36:26.497] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:36:26.497294 [2025-09-06 14:36:26.497] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:36:26.497298 [2025-09-06 14:36:26.497] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:36:26.497310 [2025-09-06 14:36:26.497] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:36:26.497516 [2025-09-06 14:36:26.497] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:36:37.147497 [2025-09-06 14:36:37.147] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:36:47.207387 [2025-09-06 14:36:47.207] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:36:57.452323 [2025-09-06 14:36:57.452] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:37:07.169664 [2025-09-06 14:37:07.169] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:37:17.153636 [2025-09-06 14:37:17.153] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:37:27.159789 [2025-09-06 14:37:27.159] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:37:37.156440 [2025-09-06 14:37:37.156] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:37:47.156079 [2025-09-06 14:37:47.156] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:37:57.151269 [2025-09-06 14:37:57.151] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:38:07.157396 [2025-09-06 14:38:07.157] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:38:17.209788 [2025-09-06 14:38:17.209] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:38:27.152362 [2025-09-06 14:38:27.152] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:38:37.208825 [2025-09-06 14:38:37.208] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:38:47.154117 [2025-09-06 14:38:47.154] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:38:57.152671 [2025-09-06 14:38:57.152] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:39:07.152084 [2025-09-06 14:39:07.152] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:39:17.163936 [2025-09-06 14:39:17.163] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:39:27.201701 [2025-09-06 14:39:27.201] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:39:37.151356 [2025-09-06 14:39:37.151] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:39:47.159185 [2025-09-06 14:39:47.159] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:39:57.166811 [2025-09-06 14:39:57.166] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:40:07.153552 [2025-09-06 14:40:07.153] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:40:17.159053 [2025-09-06 14:40:17.159] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:40:23.896234 [2025-09-06 14:40:23.896] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 14:40:23.896366 [2025-09-06 14:40:23.896] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 14:40:23.896380 [2025-09-06 14:40:23.896] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 14:40:23.896385 [2025-09-06 14:40:23.896] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 14:40:35.405880 [2025-09-06 14:40:35.405] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:40:35.407573 [2025-09-06 14:40:35.407] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:40:35.477648 [2025-09-06 14:40:35.477] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:40:35.477702 [2025-09-06 14:40:35.477] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:40:35.893166 [2025-09-06 14:40:35.893] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:40:36.313866 [2025-09-06 14:40:36.313] [INFO] [trading-engine] symbol=BTCUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:40:36.723015 [2025-09-06 14:40:36.723] [INFO] [trading-engine] interval=5m candles=200 symbol=ETHUSDT Successfully fetched historical klines
+2025/09/06 14:40:36.853945 [2025-09-06 14:40:36.853] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:40:36.985902 [2025-09-06 14:40:36.985] [INFO] [trading-engine] symbol=XRPUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:40:37.338247 [2025-09-06 14:40:37.338] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:40:37.466634 [2025-09-06 14:40:37.466] [INFO] [trading-engine] symbol=SOLUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:40:37.596335 [2025-09-06 14:40:37.596] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:40:37.953314 [2025-09-06 14:40:37.953] [INFO] [trading-engine] candles=200 symbol=TRXUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:40:38.076747 [2025-09-06 14:40:38.076] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:40:38.446304 [2025-09-06 14:40:38.446] [INFO] [trading-engine] interval=5m candles=200 symbol=DOTUSDT Successfully fetched historical klines
+2025/09/06 14:40:38.446461 [2025-09-06 14:40:38.446] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:40:38.446558 [2025-09-06 14:40:38.446] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:40:38.446622 [2025-09-06 14:40:38.446] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:40:38.446655 [2025-09-06 14:40:38.446] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:40:38.446675 [2025-09-06 14:40:38.446] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:40:38.447200 [2025-09-06 14:40:38.447] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:40:49.095409 [2025-09-06 14:40:49.095] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:40:59.195881 [2025-09-06 14:40:59.195] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:41:09.114558 [2025-09-06 14:41:09.114] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:41:19.103224 [2025-09-06 14:41:19.103] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:41:29.105568 [2025-09-06 14:41:29.105] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:41:39.101095 [2025-09-06 14:41:39.101] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:41:49.100337 [2025-09-06 14:41:49.100] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:41:59.102621 [2025-09-06 14:41:59.102] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:42:09.109420 [2025-09-06 14:42:09.109] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:42:19.139149 [2025-09-06 14:42:19.139] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:42:20.806970 [2025-09-06 14:42:20.806] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:42:22.447981 [2025-09-06 14:42:22.447] [INFO] [trading-engine] confidence=75 stop_loss=109655.37 take_profit=112424.44499999999 symbol=BTCUSDT type=BUY price=110763 quantity=0.09028285618843837 Executed buy trade
+2025/09/06 14:42:22.448096 [2025-09-06 14:42:22.448] [INFO] [trading-engine] price=4300.04 quantity=2.32555976223477 confidence=85 stop_loss=4257.0396 take_profit=4364.540599999999 symbol=ETHUSDT type=BUY Executed buy trade
+2025/09/06 14:42:22.448160 [2025-09-06 14:42:22.448] [INFO] [trading-engine] symbol=BNBUSDT type=BUY price=858.57 quantity=11.647273955530707 confidence=95 stop_loss=849.9843000000001 take_profit=871.44855 Executed buy trade
+2025/09/06 14:42:22.448258 [2025-09-06 14:42:22.448] [INFO] [trading-engine] confidence=85 stop_loss=2.781108 take_profit=2.8513379999999997 symbol=XRPUSDT type=BUY price=2.8092 quantity=3559.7323081304285 Executed buy trade
+2025/09/06 14:42:22.448335 [2025-09-06 14:42:22.448] [INFO] [trading-engine] symbol=ADAUSDT type=BUY price=0.821 quantity=12180.267965895251 confidence=85 stop_loss=0.8127899999999999 take_profit=0.8333149999999999 Executed buy trade
+2025/09/06 14:42:28.846343 [2025-09-06 14:42:28.846] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:42:29.094590 [2025-09-06 14:42:29.094] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:42:39.119176 [2025-09-06 14:42:39.119] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:42:49.098951 [2025-09-06 14:42:49.098] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:42:59.113819 [2025-09-06 14:42:59.113] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:43:08.911593 [2025-09-06 14:43:08.911] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:43:19.123360 [2025-09-06 14:43:19.123] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:43:29.123270 [2025-09-06 14:43:29.123] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:43:39.135091 [2025-09-06 14:43:39.135] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:43:49.141069 [2025-09-06 14:43:49.141] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:43:52.758693 [2025-09-06 14:43:52.758] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:43:59.141295 [2025-09-06 14:43:59.141] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:44:09.129199 [2025-09-06 14:44:09.129] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:44:19.125935 [2025-09-06 14:44:19.125] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:44:29.138667 [2025-09-06 14:44:29.138] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:44:39.196508 [2025-09-06 14:44:39.196] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:44:49.184311 [2025-09-06 14:44:49.184] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:44:59.140926 [2025-09-06 14:44:59.140] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:44:59.548355 [2025-09-06 14:44:59.548] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:45:09.129918 [2025-09-06 14:45:09.129] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:45:19.139455 [2025-09-06 14:45:19.139] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:45:29.142086 [2025-09-06 14:45:29.142] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:45:37.559495 [2025-09-06 14:45:37.559] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 14:45:37.559627 [2025-09-06 14:45:37.559] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 14:45:37.559635 [2025-09-06 14:45:37.559] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 14:45:37.559639 [2025-09-06 14:45:37.559] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 14:45:42.729626 [2025-09-06 14:45:42.729] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:45:42.733057 [2025-09-06 14:45:42.733] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:45:42.803953 [2025-09-06 14:45:42.803] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:45:42.804066 [2025-09-06 14:45:42.804] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:45:43.319073 [2025-09-06 14:45:43.319] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:45:43.660831 [2025-09-06 14:45:43.660] [INFO] [trading-engine] symbol=BTCUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:43.850889 [2025-09-06 14:45:43.850] [INFO] [trading-engine] symbol=ETHUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:44.184401 [2025-09-06 14:45:44.184] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:44.516691 [2025-09-06 14:45:44.516] [INFO] [trading-engine] symbol=XRPUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:44.850524 [2025-09-06 14:45:44.850] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:45.184609 [2025-09-06 14:45:45.184] [INFO] [trading-engine] candles=200 symbol=SOLUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:45:45.316665 [2025-09-06 14:45:45.316] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:45.446545 [2025-09-06 14:45:45.446] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:45.766396 [2025-09-06 14:45:45.766] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:45:46.208983 [2025-09-06 14:45:46.208] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:45:46.209062 [2025-09-06 14:45:46.209] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:45:46.209110 [2025-09-06 14:45:46.209] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:45:46.209149 [2025-09-06 14:45:46.209] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:45:46.209164 [2025-09-06 14:45:46.209] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:45:46.209194 [2025-09-06 14:45:46.209] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:45:46.209427 [2025-09-06 14:45:46.209] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:45:54.594245 [2025-09-06 14:45:54.594] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:45:56.866630 [2025-09-06 14:45:56.866] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:45:58.210388 [2025-09-06 14:45:58.210] [INFO] [trading-engine] take_profit=112396.44115 symbol=BTCUSDT type=BUY price=110735.41 quantity=0.09030535038430797 confidence=75 stop_loss=109628.0559 Executed buy trade
+2025/09/06 14:45:58.210466 [2025-09-06 14:45:58.210] [INFO] [trading-engine] symbol=ETHUSDT type=BUY price=4298.9 quantity=2.32617646374654 confidence=75 stop_loss=4255.910999999999 take_profit=4363.383499999999 Executed buy trade
+2025/09/06 14:45:58.210490 [2025-09-06 14:45:58.210] [INFO] [trading-engine] confidence=75 stop_loss=849.618 take_profit=871.073 symbol=BNBUSDT type=BUY price=858.2 quantity=11.652295502213935 Executed buy trade
+2025/09/06 14:45:58.210505 [2025-09-06 14:45:58.210] [INFO] [trading-engine] confidence=85 stop_loss=2.7803159999999996 take_profit=2.8505259999999994 symbol=XRPUSDT type=BUY price=2.8084 quantity=3560.746332431278 Executed buy trade
+2025/09/06 14:45:58.210521 [2025-09-06 14:45:58.210] [INFO] [trading-engine] stop_loss=0.8127899999999999 take_profit=0.8333149999999999 symbol=ADAUSDT type=BUY price=0.821 quantity=12180.267965895251 confidence=85 Executed buy trade
+2025/09/06 14:46:06.874187 [2025-09-06 14:46:06.874] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:46:16.868080 [2025-09-06 14:46:16.868] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:46:26.988464 [2025-09-06 14:46:26.988] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:46:36.864383 [2025-09-06 14:46:36.864] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:46:46.902136 [2025-09-06 14:46:46.902] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:46:56.859516 [2025-09-06 14:46:56.859] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:47:06.863917 [2025-09-06 14:47:06.863] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:47:16.874976 [2025-09-06 14:47:16.874] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:47:26.884280 [2025-09-06 14:47:26.884] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:47:36.881435 [2025-09-06 14:47:36.881] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:47:46.875613 [2025-09-06 14:47:46.875] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:47:56.882753 [2025-09-06 14:47:56.882] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:48:06.869246 [2025-09-06 14:48:06.869] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:48:16.932678 [2025-09-06 14:48:16.932] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:48:26.860176 [2025-09-06 14:48:26.860] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:48:36.873769 [2025-09-06 14:48:36.873] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:48:46.878963 [2025-09-06 14:48:46.878] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:48:56.905055 [2025-09-06 14:48:56.905] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:49:06.852508 [2025-09-06 14:49:06.852] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:49:16.883274 [2025-09-06 14:49:16.883] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:49:26.999838 [2025-09-06 14:49:26.999] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:49:36.869908 [2025-09-06 14:49:36.869] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:49:49.710502 [2025-09-06 14:49:49.710] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:49:49.712501 [2025-09-06 14:49:49.712] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:49:49.781983 [2025-09-06 14:49:49.781] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:49:49.782027 [2025-09-06 14:49:49.782] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:49:50.224286 [2025-09-06 14:49:50.224] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:49:50.561166 [2025-09-06 14:49:50.561] [INFO] [trading-engine] candles=200 symbol=BTCUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:49:50.950823 [2025-09-06 14:49:50.950] [INFO] [trading-engine] symbol=ETHUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:51.080499 [2025-09-06 14:49:51.080] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:51.460165 [2025-09-06 14:49:51.460] [INFO] [trading-engine] symbol=XRPUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:51.589922 [2025-09-06 14:49:51.589] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:51.970702 [2025-09-06 14:49:51.970] [INFO] [trading-engine] symbol=SOLUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:52.382244 [2025-09-06 14:49:52.382] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:52.511975 [2025-09-06 14:49:52.511] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:52.888081 [2025-09-06 14:49:52.888] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:49:53.020115 [2025-09-06 14:49:53.020] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:49:53.020234 [2025-09-06 14:49:53.020] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:49:53.020301 [2025-09-06 14:49:53.020] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:49:53.020363 [2025-09-06 14:49:53.020] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:49:53.020401 [2025-09-06 14:49:53.020] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:49:53.020375 [2025-09-06 14:49:53.020] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:49:53.020704 [2025-09-06 14:49:53.020] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:50:03.686729 [2025-09-06 14:50:03.686] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:50:13.770695 [2025-09-06 14:50:13.770] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:50:18.959720 [2025-09-06 14:50:18.959] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:50:19.021757 [2025-09-06 14:50:19.021] [INFO] [trading-engine] symbol=BTCUSDT type=BUY price=110729.28 quantity=0.09031034971057339 confidence=75 stop_loss=109621.9872 take_profit=112390.21919999999 Executed buy trade
+2025/09/06 14:50:19.021957 [2025-09-06 14:50:19.021] [INFO] [trading-engine] type=BUY price=4296.99 quantity=2.3272104426586986 confidence=75 stop_loss=4254.0201 take_profit=4361.444849999999 symbol=ETHUSDT Executed buy trade
+2025/09/06 14:50:19.022010 [2025-09-06 14:50:19.021] [INFO] [trading-engine] price=858.08 quantity=11.65392504195413 confidence=75 stop_loss=849.4992000000001 take_profit=870.9512 symbol=BNBUSDT type=BUY Executed buy trade
+2025/09/06 14:50:19.022047 [2025-09-06 14:50:19.022] [INFO] [trading-engine] symbol=XRPUSDT type=BUY price=2.808 quantity=3561.2535612535617 confidence=85 stop_loss=2.7799199999999997 take_profit=2.8501199999999995 Executed buy trade
+2025/09/06 14:50:19.022086 [2025-09-06 14:50:19.022] [INFO] [trading-engine] confidence=75 stop_loss=0.813285 take_profit=0.8338224999999999 symbol=ADAUSDT type=BUY price=0.8215 quantity=12172.854534388314 Executed buy trade
+2025/09/06 14:50:23.678805 [2025-09-06 14:50:23.678] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:50:33.783606 [2025-09-06 14:50:33.783] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:50:43.684253 [2025-09-06 14:50:43.684] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:50:53.680769 [2025-09-06 14:50:53.680] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:51:03.678886 [2025-09-06 14:51:03.678] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:51:13.681167 [2025-09-06 14:51:13.681] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:51:23.667498 [2025-09-06 14:51:23.667] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:51:33.677577 [2025-09-06 14:51:33.677] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:51:43.671391 [2025-09-06 14:51:43.671] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:51:53.664974 [2025-09-06 14:51:53.664] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:52:03.689625 [2025-09-06 14:52:03.689] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:52:13.683841 [2025-09-06 14:52:13.683] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:52:19.618971 [2025-09-06 14:52:19.618] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 14:52:19.619313 [2025-09-06 14:52:19.619] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 14:52:19.619330 [2025-09-06 14:52:19.619] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 14:52:19.619336 [2025-09-06 14:52:19.619] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 14:53:16.055296 [2025-09-06 14:53:16.055] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 14:53:16.057082 [2025-09-06 14:53:16.057] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 14:53:16.126897 [2025-09-06 14:53:16.126] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 14:53:16.126957 [2025-09-06 14:53:16.126] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 14:53:16.553741 [2025-09-06 14:53:16.553] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 14:53:16.885660 [2025-09-06 14:53:16.885] [INFO] [trading-engine] candles=200 symbol=BTCUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:53:17.014888 [2025-09-06 14:53:17.014] [INFO] [trading-engine] symbol=ETHUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:53:17.346116 [2025-09-06 14:53:17.346] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:53:17.692790 [2025-09-06 14:53:17.692] [INFO] [trading-engine] interval=5m candles=200 symbol=XRPUSDT Successfully fetched historical klines
+2025/09/06 14:53:18.102174 [2025-09-06 14:53:18.102] [INFO] [trading-engine] candles=200 symbol=ADAUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:53:18.510798 [2025-09-06 14:53:18.510] [INFO] [trading-engine] symbol=SOLUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:53:18.641883 [2025-09-06 14:53:18.641] [INFO] [trading-engine] candles=200 symbol=DOGEUSDT interval=5m Successfully fetched historical klines
+2025/09/06 14:53:18.819581 [2025-09-06 14:53:18.819] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:53:19.225849 [2025-09-06 14:53:19.225] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 14:53:19.358543 [2025-09-06 14:53:19.358] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 14:53:19.358633 [2025-09-06 14:53:19.358] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 14:53:19.358658 [2025-09-06 14:53:19.358] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 14:53:19.358696 [2025-09-06 14:53:19.358] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 14:53:19.358698 [2025-09-06 14:53:19.358] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 14:53:19.358702 [2025-09-06 14:53:19.358] [INFO] [trading-engine] Starting trading loop
+2025/09/06 14:53:19.358885 [2025-09-06 14:53:19.358] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 14:53:26.590078 [2025-09-06 14:53:26.590] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:53:30.018966 [2025-09-06 14:53:30.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:53:31.359946 [2025-09-06 14:53:31.359] [INFO] [trading-engine] take_profit=112394.11679999999 symbol=BTCUSDT type=BUY price=110733.12 quantity=0.09030721793082323 confidence=75 stop_loss=109625.7888 Executed buy trade
+2025/09/06 14:53:31.360003 [2025-09-06 14:53:31.359] [INFO] [trading-engine] quantity=2.3261439976180287 confidence=75 stop_loss=4255.9704 take_profit=4363.444399999999 symbol=ETHUSDT type=BUY price=4298.96 Executed buy trade
+2025/09/06 14:53:31.360018 [2025-09-06 14:53:31.360] [INFO] [trading-engine] stop_loss=850.0239 take_profit=871.4891499999999 symbol=BNBUSDT type=BUY price=858.61 quantity=11.646731344848067 confidence=85 Executed buy trade
+2025/09/06 14:53:31.360029 [2025-09-06 14:53:31.360] [INFO] [trading-engine] take_profit=2.8514394999999997 symbol=XRPUSDT type=BUY price=2.8093 quantity=3559.6055956999967 confidence=75 stop_loss=2.7812069999999998 Executed buy trade
+2025/09/06 14:53:31.360039 [2025-09-06 14:53:31.360] [INFO] [trading-engine] type=BUY price=0.8213 quantity=12175.818823815902 confidence=75 stop_loss=0.813087 take_profit=0.8336195 symbol=ADAUSDT Executed buy trade
+2025/09/06 14:53:40.034704 [2025-09-06 14:53:40.034] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:53:50.017005 [2025-09-06 14:53:50.016] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:54:00.018415 [2025-09-06 14:54:00.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:54:10.013565 [2025-09-06 14:54:10.013] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:54:20.045055 [2025-09-06 14:54:20.045] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:54:30.000539 [2025-09-06 14:54:30.000] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:54:40.112846 [2025-09-06 14:54:40.112] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:54:42.678996 [2025-09-06 14:54:42.678] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:54:50.016340 [2025-09-06 14:54:50.016] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:55:00.011489 [2025-09-06 14:55:00.011] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:55:10.026070 [2025-09-06 14:55:10.026] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:55:20.011759 [2025-09-06 14:55:20.011] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:55:30.029048 [2025-09-06 14:55:30.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:55:40.024356 [2025-09-06 14:55:40.024] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:55:50.034240 [2025-09-06 14:55:50.034] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:56:00.022800 [2025-09-06 14:56:00.022] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:56:10.016134 [2025-09-06 14:56:10.016] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:56:20.007658 [2025-09-06 14:56:20.007] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:56:30.051658 [2025-09-06 14:56:30.051] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:56:40.021550 [2025-09-06 14:56:40.021] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:56:50.022779 [2025-09-06 14:56:50.022] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:57:00.022703 [2025-09-06 14:57:00.022] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:57:10.021771 [2025-09-06 14:57:10.021] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:57:20.018381 [2025-09-06 14:57:20.018] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:57:30.140696 [2025-09-06 14:57:30.140] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:57:40.007829 [2025-09-06 14:57:40.007] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:57:50.052000 [2025-09-06 14:57:50.051] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:58:00.018388 [2025-09-06 14:58:00.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:58:10.167086 [2025-09-06 14:58:10.167] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:58:20.010730 [2025-09-06 14:58:20.010] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:58:30.026663 [2025-09-06 14:58:30.026] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:58:40.024845 [2025-09-06 14:58:40.024] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:58:50.006646 [2025-09-06 14:58:50.006] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 14:59:00.040209 [2025-09-06 14:59:00.040] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:59:10.025277 [2025-09-06 14:59:10.025] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:59:20.029987 [2025-09-06 14:59:20.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:59:30.018641 [2025-09-06 14:59:30.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:59:40.012761 [2025-09-06 14:59:40.012] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 14:59:45.051732 [2025-09-06 14:59:45.051] [INFO] [trading-engine] Automated trading disabled
+2025/09/06 14:59:48.312243 [2025-09-06 14:59:48.312] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 14:59:50.078232 [2025-09-06 14:59:50.078] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:00:00.027047 [2025-09-06 15:00:00.027] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:00:10.048315 [2025-09-06 15:00:10.048] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:00:20.013202 [2025-09-06 15:00:20.013] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:00:30.022061 [2025-09-06 15:00:30.022] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:00:40.148277 [2025-09-06 15:00:40.148] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:00:50.029950 [2025-09-06 15:00:50.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:01:00.019393 [2025-09-06 15:01:00.019] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:01:09.726546 [2025-09-06 15:01:09.726] [INFO] [trading-engine] min_confidence=65 max_position_size=15000 risk_per_trade=2.5 stop_loss_percent=1.5 take_profit_percent=2 Trading settings updated
+2025/09/06 15:01:10.028444 [2025-09-06 15:01:10.028] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:01:11.371596 [2025-09-06 15:01:11.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:13.371661 [2025-09-06 15:01:13.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:15.371560 [2025-09-06 15:01:15.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:17.371564 [2025-09-06 15:01:17.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:19.371581 [2025-09-06 15:01:19.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:20.023893 [2025-09-06 15:01:20.023] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:01:21.371666 [2025-09-06 15:01:21.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:23.371598 [2025-09-06 15:01:23.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:25.371699 [2025-09-06 15:01:25.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:27.371692 [2025-09-06 15:01:27.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:29.371616 [2025-09-06 15:01:29.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:30.031975 [2025-09-06 15:01:30.031] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:01:31.371671 [2025-09-06 15:01:31.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:33.371709 [2025-09-06 15:01:33.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:35.371944 [2025-09-06 15:01:35.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:37.371714 [2025-09-06 15:01:37.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:39.371774 [2025-09-06 15:01:39.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:40.030990 [2025-09-06 15:01:40.030] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:01:41.371777 [2025-09-06 15:01:41.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:43.371924 [2025-09-06 15:01:43.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:45.371864 [2025-09-06 15:01:45.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:47.372075 [2025-09-06 15:01:47.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:49.371996 [2025-09-06 15:01:49.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:50.054857 [2025-09-06 15:01:50.054] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:01:51.371880 [2025-09-06 15:01:51.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:53.371930 [2025-09-06 15:01:53.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:55.371916 [2025-09-06 15:01:55.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:57.371980 [2025-09-06 15:01:57.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:01:59.372117 [2025-09-06 15:01:59.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:00.034742 [2025-09-06 15:02:00.034] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:02:01.372702 [2025-09-06 15:02:01.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:03.372005 [2025-09-06 15:02:03.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:05.372075 [2025-09-06 15:02:05.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:07.372061 [2025-09-06 15:02:07.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:09.371995 [2025-09-06 15:02:09.371] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:10.026588 [2025-09-06 15:02:10.026] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:02:11.372090 [2025-09-06 15:02:11.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:13.372021 [2025-09-06 15:02:13.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:15.372063 [2025-09-06 15:02:15.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:17.372065 [2025-09-06 15:02:17.372] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:02:19.221061 [2025-09-06 15:02:19.221] [INFO] [trading-engine] max_position_size=10000 risk_per_trade=2 stop_loss_percent=1 take_profit_percent=1.5 min_confidence=60 Trading settings updated
+2025/09/06 15:02:20.049140 [2025-09-06 15:02:20.048] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:02:30.036945 [2025-09-06 15:02:30.036] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:02:40.036274 [2025-09-06 15:02:40.036] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:02:50.036762 [2025-09-06 15:02:50.036] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:03:00.032724 [2025-09-06 15:03:00.032] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:03:10.031224 [2025-09-06 15:03:10.031] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:03:20.020915 [2025-09-06 15:03:20.020] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:03:30.055666 [2025-09-06 15:03:30.055] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:03:40.032056 [2025-09-06 15:03:40.032] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:03:50.033609 [2025-09-06 15:03:50.033] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:04:00.050855 [2025-09-06 15:04:00.050] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:04:10.018032 [2025-09-06 15:04:10.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:04:20.067452 [2025-09-06 15:04:20.067] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:04:30.029044 [2025-09-06 15:04:30.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:04:40.073280 [2025-09-06 15:04:40.073] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:04:50.026553 [2025-09-06 15:04:50.026] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:05:00.022381 [2025-09-06 15:05:00.022] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:05:10.017415 [2025-09-06 15:05:10.017] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:05:20.019403 [2025-09-06 15:05:20.019] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:05:30.044103 [2025-09-06 15:05:30.044] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:05:40.032803 [2025-09-06 15:05:40.032] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:05:50.069854 [2025-09-06 15:05:50.069] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:06:00.028979 [2025-09-06 15:06:00.028] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:06:10.167217 [2025-09-06 15:06:10.167] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:06:20.048264 [2025-09-06 15:06:20.048] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:06:30.029926 [2025-09-06 15:06:30.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:06:40.047657 [2025-09-06 15:06:40.047] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:06:50.035600 [2025-09-06 15:06:50.035] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:07:00.066452 [2025-09-06 15:07:00.066] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:07:10.033580 [2025-09-06 15:07:10.033] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:07:20.033303 [2025-09-06 15:07:20.033] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:07:30.037319 [2025-09-06 15:07:30.037] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:07:40.163149 [2025-09-06 15:07:40.163] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:07:50.027611 [2025-09-06 15:07:50.027] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:08:00.045681 [2025-09-06 15:08:00.045] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:08:10.165359 [2025-09-06 15:08:10.165] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:08:20.029015 [2025-09-06 15:08:20.028] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:08:30.149553 [2025-09-06 15:08:30.149] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:08:40.048492 [2025-09-06 15:08:40.048] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:08:50.041450 [2025-09-06 15:08:50.041] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:09:00.042658 [2025-09-06 15:09:00.042] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:09:10.046339 [2025-09-06 15:09:10.046] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:09:20.077124 [2025-09-06 15:09:20.077] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:09:30.038299 [2025-09-06 15:09:30.038] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:09:40.023290 [2025-09-06 15:09:40.023] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:09:50.035821 [2025-09-06 15:09:50.035] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:10:00.038912 [2025-09-06 15:10:00.038] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:10:10.026120 [2025-09-06 15:10:10.026] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:10:20.041964 [2025-09-06 15:10:20.041] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:10:30.065796 [2025-09-06 15:10:30.065] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:10:40.035981 [2025-09-06 15:10:40.035] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:10:50.021415 [2025-09-06 15:10:50.021] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:11:00.033310 [2025-09-06 15:11:00.033] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:11:10.043321 [2025-09-06 15:11:10.043] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:11:20.029179 [2025-09-06 15:11:20.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:11:30.033590 [2025-09-06 15:11:30.033] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:11:40.062779 [2025-09-06 15:11:40.062] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:11:50.032319 [2025-09-06 15:11:50.032] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:12:00.041971 [2025-09-06 15:12:00.041] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:12:10.066372 [2025-09-06 15:12:10.066] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:12:20.056441 [2025-09-06 15:12:20.056] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:12:30.134564 [2025-09-06 15:12:30.134] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:12:40.033205 [2025-09-06 15:12:40.033] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:12:50.031451 [2025-09-06 15:12:50.031] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:13:00.034761 [2025-09-06 15:13:00.034] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:13:10.056115 [2025-09-06 15:13:10.056] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:13:20.034406 [2025-09-06 15:13:20.034] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:13:30.039238 [2025-09-06 15:13:30.039] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:13:40.040423 [2025-09-06 15:13:40.040] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:13:50.177962 [2025-09-06 15:13:50.177] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:14:00.076895 [2025-09-06 15:14:00.076] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:14:10.236855 [2025-09-06 15:14:10.236] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:14:20.036211 [2025-09-06 15:14:20.036] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:14:30.104107 [2025-09-06 15:14:30.104] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:14:40.051166 [2025-09-06 15:14:40.051] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:14:50.136971 [2025-09-06 15:14:50.136] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:15:00.025690 [2025-09-06 15:15:00.025] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:15:10.090595 [2025-09-06 15:15:10.090] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:15:20.011074 [2025-09-06 15:15:20.011] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:15:30.038633 [2025-09-06 15:15:30.038] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:15:40.099818 [2025-09-06 15:15:40.099] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:15:50.391425 [2025-09-06 15:15:50.391] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:16:00.050965 [2025-09-06 15:16:00.050] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:16:10.020423 [2025-09-06 15:16:10.020] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:16:20.138150 [2025-09-06 15:16:20.138] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:16:30.013001 [2025-09-06 15:16:30.012] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:16:40.007026 [2025-09-06 15:16:40.007] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:16:50.084941 [2025-09-06 15:16:50.084] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:17:00.070107 [2025-09-06 15:17:00.070] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:17:09.996407 [2025-09-06 15:17:09.996] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:17:19.994064 [2025-09-06 15:17:19.994] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:17:30.010750 [2025-09-06 15:17:30.010] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:17:40.016996 [2025-09-06 15:17:40.016] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:17:50.027248 [2025-09-06 15:17:50.027] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:18:00.101043 [2025-09-06 15:18:00.100] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:18:10.023178 [2025-09-06 15:18:10.023] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:18:20.019337 [2025-09-06 15:18:20.019] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:18:30.254549 [2025-09-06 15:18:30.254] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:18:40.047724 [2025-09-06 15:18:40.047] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:18:50.020578 [2025-09-06 15:18:50.020] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:19:00.012623 [2025-09-06 15:19:00.012] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:19:10.010459 [2025-09-06 15:19:10.010] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:19:20.010188 [2025-09-06 15:19:20.010] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:19:30.018209 [2025-09-06 15:19:30.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:19:40.008947 [2025-09-06 15:19:40.008] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:19:50.125897 [2025-09-06 15:19:50.125] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:20:00.011069 [2025-09-06 15:20:00.011] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:20:10.011897 [2025-09-06 15:20:10.011] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:20:20.027566 [2025-09-06 15:20:20.027] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:20:30.134827 [2025-09-06 15:20:30.134] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:20:40.216509 [2025-09-06 15:20:40.216] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:20:50.008983 [2025-09-06 15:20:50.008] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:21:00.009015 [2025-09-06 15:21:00.008] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:21:10.044299 [2025-09-06 15:21:10.044] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:21:19.999264 [2025-09-06 15:21:19.999] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:21:30.306043 [2025-09-06 15:21:30.306] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:21:32.106965 [2025-09-06 15:21:32.106] [INFO] [trading-engine] max_position_size=5000 risk_per_trade=1 stop_loss_percent=0.5 take_profit_percent=1 min_confidence=70 Trading settings updated
+2025/09/06 15:21:33.354209 [2025-09-06 15:21:33.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:35.353915 [2025-09-06 15:21:35.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:37.353840 [2025-09-06 15:21:37.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:39.353841 [2025-09-06 15:21:39.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:40.014948 [2025-09-06 15:21:40.014] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:21:41.353038 [2025-09-06 15:21:41.352] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:43.353889 [2025-09-06 15:21:43.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:45.354001 [2025-09-06 15:21:45.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:47.353879 [2025-09-06 15:21:47.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:49.353907 [2025-09-06 15:21:49.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:50.010517 [2025-09-06 15:21:50.010] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:21:51.353968 [2025-09-06 15:21:51.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:53.353920 [2025-09-06 15:21:53.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:55.353805 [2025-09-06 15:21:55.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:57.353946 [2025-09-06 15:21:57.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:21:59.353960 [2025-09-06 15:21:59.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:00.007216 [2025-09-06 15:22:00.007] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:22:01.353997 [2025-09-06 15:22:01.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:03.353961 [2025-09-06 15:22:03.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:05.353921 [2025-09-06 15:22:05.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:07.353978 [2025-09-06 15:22:07.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:09.354030 [2025-09-06 15:22:09.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:10.008938 [2025-09-06 15:22:10.008] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:22:11.354170 [2025-09-06 15:22:11.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:13.354018 [2025-09-06 15:22:13.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:15.353870 [2025-09-06 15:22:15.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:17.353956 [2025-09-06 15:22:17.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:19.353933 [2025-09-06 15:22:19.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:20.096984 [2025-09-06 15:22:20.096] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:22:21.354039 [2025-09-06 15:22:21.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:23.353146 [2025-09-06 15:22:23.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:25.354025 [2025-09-06 15:22:25.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:27.354152 [2025-09-06 15:22:27.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:29.353987 [2025-09-06 15:22:29.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:30.072590 [2025-09-06 15:22:30.072] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:22:31.354076 [2025-09-06 15:22:31.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:33.353471 [2025-09-06 15:22:33.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:35.354060 [2025-09-06 15:22:35.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:37.353725 [2025-09-06 15:22:37.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:39.353942 [2025-09-06 15:22:39.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:40.019626 [2025-09-06 15:22:40.019] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:22:41.354101 [2025-09-06 15:22:41.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:43.354043 [2025-09-06 15:22:43.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:45.354093 [2025-09-06 15:22:45.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:47.354229 [2025-09-06 15:22:47.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:49.353572 [2025-09-06 15:22:49.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:50.012148 [2025-09-06 15:22:50.012] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:22:51.354003 [2025-09-06 15:22:51.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:53.353636 [2025-09-06 15:22:53.353] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:55.354010 [2025-09-06 15:22:55.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:57.354155 [2025-09-06 15:22:57.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:22:59.354031 [2025-09-06 15:22:59.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:00.007077 [2025-09-06 15:23:00.007] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:23:01.354095 [2025-09-06 15:23:01.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:03.354245 [2025-09-06 15:23:03.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:05.354103 [2025-09-06 15:23:05.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:07.354103 [2025-09-06 15:23:07.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:09.354115 [2025-09-06 15:23:09.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:10.023445 [2025-09-06 15:23:10.023] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:23:11.354272 [2025-09-06 15:23:11.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:13.354164 [2025-09-06 15:23:13.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:15.354377 [2025-09-06 15:23:15.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:17.354269 [2025-09-06 15:23:17.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:19.354204 [2025-09-06 15:23:19.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:20.013233 [2025-09-06 15:23:20.013] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:23:21.354758 [2025-09-06 15:23:21.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:23.354243 [2025-09-06 15:23:23.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:25.354282 [2025-09-06 15:23:25.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:27.354361 [2025-09-06 15:23:27.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:29.354269 [2025-09-06 15:23:29.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:30.029996 [2025-09-06 15:23:30.029] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:23:31.354241 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=BTCUSDT reason=timeout Closing position due to timeout
+2025/09/06 15:23:31.354424 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=ETHUSDT reason=timeout Closing position due to timeout
+2025/09/06 15:23:31.354445 [2025-09-06 15:23:31.354] [INFO] [trading-engine] hold_time=30 exit_price=110762.3 symbol=BTCUSDT reason=TIMEOUT pnl=2.635164619222105 Position closed
+2025/09/06 15:23:31.354631 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=ETHUSDT reason=TIMEOUT pnl=-9.862850549899933 hold_time=30 exit_price=4294.72 Position closed
+2025/09/06 15:23:31.354443 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=ADAUSDT reason=timeout Closing position due to timeout
+2025/09/06 15:23:31.354769 [2025-09-06 15:23:31.354] [INFO] [trading-engine] reason=TIMEOUT pnl=4.870327529525825 hold_time=30 exit_price=0.8217 symbol=ADAUSDT Position closed
+2025/09/06 15:23:31.354363 [2025-09-06 15:23:31.354] [WARN] [trading-engine] Insufficient balance for trading: -0.00
+2025/09/06 15:23:31.354436 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=BNBUSDT reason=timeout Closing position due to timeout
+2025/09/06 15:23:31.355004 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=BNBUSDT reason=TIMEOUT pnl=-15.956021942441906 hold_time=30 exit_price=857.24 Position closed
+2025/09/06 15:23:31.354452 [2025-09-06 15:23:31.354] [INFO] [trading-engine] symbol=XRPUSDT reason=timeout Closing position due to timeout
+2025/09/06 15:23:31.355149 [2025-09-06 15:23:31.355] [INFO] [trading-engine] pnl=7.831132310540711 hold_time=30 exit_price=2.8115 symbol=XRPUSDT reason=TIMEOUT Position closed
+2025/09/06 15:23:40.012005 [2025-09-06 15:23:40.011] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:23:50.018525 [2025-09-06 15:23:50.018] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:24:00.060746 [2025-09-06 15:24:00.060] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:24:10.019823 [2025-09-06 15:24:10.019] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:24:20.108436 [2025-09-06 15:24:20.108] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:24:30.019599 [2025-09-06 15:24:30.019] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:24:40.168737 [2025-09-06 15:24:40.168] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:24:47.997193 [2025-09-06 15:24:47.997] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 15:24:47.997342 [2025-09-06 15:24:47.997] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 15:24:47.997356 [2025-09-06 15:24:47.997] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 15:24:47.997362 [2025-09-06 15:24:47.997] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 15:30:57.659321 [2025-09-06 15:30:57.659] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 15:30:57.661457 [2025-09-06 15:30:57.661] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp 127.0.0.1:5432: connect: connection refused
+2025/09/06 15:30:57.730916 [2025-09-06 15:30:57.730] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp 127.0.0.1:6379: connect: connection refused
+2025/09/06 15:30:57.730997 [2025-09-06 15:30:57.730] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 15:30:58.155888 [2025-09-06 15:30:58.155] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 15:30:58.502303 [2025-09-06 15:30:58.502] [INFO] [trading-engine] symbol=BTCUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 15:30:58.914331 [2025-09-06 15:30:58.914] [INFO] [trading-engine] symbol=ETHUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 15:30:59.292394 [2025-09-06 15:30:59.292] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 15:30:59.629482 [2025-09-06 15:30:59.629] [INFO] [trading-engine] symbol=XRPUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 15:30:59.949936 [2025-09-06 15:30:59.949] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 15:31:00.539981 [2025-09-06 15:31:00.539] [INFO] [trading-engine] candles=200 symbol=SOLUSDT interval=5m Successfully fetched historical klines
+2025/09/06 15:31:00.714867 [2025-09-06 15:31:00.714] [INFO] [trading-engine] candles=200 symbol=DOGEUSDT interval=5m Successfully fetched historical klines
+2025/09/06 15:31:01.052007 [2025-09-06 15:31:01.051] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 15:31:01.768383 [2025-09-06 15:31:01.768] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 15:31:02.183828 [2025-09-06 15:31:02.183] [INFO] [trading-engine] candles=200 symbol=DOTUSDT interval=5m Successfully fetched historical klines
+2025/09/06 15:31:02.183974 [2025-09-06 15:31:02.183] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 15:31:02.184080 [2025-09-06 15:31:02.184] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 15:31:02.184161 [2025-09-06 15:31:02.184] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 15:31:02.184186 [2025-09-06 15:31:02.184] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 15:31:02.184201 [2025-09-06 15:31:02.184] [INFO] [trading-engine] Starting trading loop
+2025/09/06 15:31:02.184545 [2025-09-06 15:31:02.184] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 15:31:12.859368 [2025-09-06 15:31:12.859] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:31:16.121642 [2025-09-06 15:31:16.121] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 15:31:16.184749 [2025-09-06 15:31:16.184] [INFO] [trading-engine] quantity=0.0903507805810513 confidence=85 stop_loss=109572.93269999999 take_profit=112339.92594999999 symbol=BTCUSDT type=BUY price=110679.73 Executed buy trade
+2025/09/06 15:31:16.184908 [2025-09-06 15:31:16.184] [INFO] [trading-engine] symbol=ETHUSDT type=BUY price=4293 quantity=2.3293733985557883 confidence=75 stop_loss=4250.07 take_profit=4357.3949999999995 Executed buy trade
+2025/09/06 15:31:16.184949 [2025-09-06 15:31:16.184] [INFO] [trading-engine] confidence=75 stop_loss=848.2419 take_profit=869.6621499999999 symbol=BNBUSDT type=BUY price=856.81 quantity=11.67119898227145 Executed buy trade
+2025/09/06 15:31:16.184980 [2025-09-06 15:31:16.184] [INFO] [trading-engine] stop_loss=2.7825930000000003 take_profit=2.8528605 symbol=XRPUSDT type=BUY price=2.8107 quantity=3557.8325683993307 confidence=75 Executed buy trade
+2025/09/06 15:31:16.185016 [2025-09-06 15:31:16.185] [INFO] [trading-engine] quantity=12177.301509985387 confidence=75 stop_loss=0.812988 take_profit=0.833518 symbol=ADAUSDT type=BUY price=0.8212 Executed buy trade
+2025/09/06 15:31:22.841296 [2025-09-06 15:31:22.841] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:31:32.852982 [2025-09-06 15:31:32.852] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:31:42.925120 [2025-09-06 15:31:42.925] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:31:52.837947 [2025-09-06 15:31:52.837] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:32:02.859201 [2025-09-06 15:32:02.859] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:32:12.838910 [2025-09-06 15:32:12.838] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:32:22.862301 [2025-09-06 15:32:22.862] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:32:32.832367 [2025-09-06 15:32:32.832] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:32:42.870732 [2025-09-06 15:32:42.870] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:32:52.835460 [2025-09-06 15:32:52.835] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:33:02.881481 [2025-09-06 15:33:02.881] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:33:12.837356 [2025-09-06 15:33:12.837] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:33:22.845161 [2025-09-06 15:33:22.845] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:33:32.888469 [2025-09-06 15:33:32.888] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:33:42.843268 [2025-09-06 15:33:42.843] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:33:52.862908 [2025-09-06 15:33:52.862] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:34:02.859986 [2025-09-06 15:34:02.859] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:34:03.186668 [2025-09-06 15:34:03.186] [INFO] [trading-engine] reason=STOP_LOSS pnl=-436.92056836710856 hold_time=2 exit_price=4105.43 symbol=ETHUSDT Position closed
+2025/09/06 15:34:12.874503 [2025-09-06 15:34:12.874] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:34:22.642264 [2025-09-06 15:34:22.642] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:34:32.854357 [2025-09-06 15:34:32.854] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:34:42.854152 [2025-09-06 15:34:42.854] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:34:52.923008 [2025-09-06 15:34:52.922] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:35:02.848903 [2025-09-06 15:35:02.848] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:35:12.889198 [2025-09-06 15:35:12.889] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:35:22.843991 [2025-09-06 15:35:22.843] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:35:32.854108 [2025-09-06 15:35:32.854] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:35:42.846440 [2025-09-06 15:35:42.846] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:35:52.947435 [2025-09-06 15:35:52.947] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:36:02.851016 [2025-09-06 15:36:02.850] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:36:12.854911 [2025-09-06 15:36:12.854] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:36:22.854365 [2025-09-06 15:36:22.854] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:36:32.846526 [2025-09-06 15:36:32.846] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:36:42.843965 [2025-09-06 15:36:42.843] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:36:52.852604 [2025-09-06 15:36:52.852] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:37:02.876580 [2025-09-06 15:37:02.876] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:37:13.259387 [2025-09-06 15:37:13.259] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:37:23.000118 [2025-09-06 15:37:23.000] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:37:32.860938 [2025-09-06 15:37:32.860] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:37:42.839123 [2025-09-06 15:37:42.839] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:37:52.843243 [2025-09-06 15:37:52.843] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:38:02.835539 [2025-09-06 15:38:02.835] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:38:12.856793 [2025-09-06 15:38:12.856] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:38:22.821466 [2025-09-06 15:38:22.821] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:38:32.833579 [2025-09-06 15:38:32.833] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:38:42.819775 [2025-09-06 15:38:42.819] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:38:52.829003 [2025-09-06 15:38:52.828] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:39:02.879506 [2025-09-06 15:39:02.879] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:39:12.843788 [2025-09-06 15:39:12.843] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:39:22.858123 [2025-09-06 15:39:22.858] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:39:33.388032 [2025-09-06 15:39:33.387] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:39:43.137804 [2025-09-06 15:39:43.137] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:39:52.838715 [2025-09-06 15:39:52.838] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:40:02.668562 [2025-09-06 15:40:02.668] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:40:12.841262 [2025-09-06 15:40:12.841] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:40:22.847083 [2025-09-06 15:40:22.847] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:40:32.845506 [2025-09-06 15:40:32.845] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:40:43.143989 [2025-09-06 15:40:43.143] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:40:52.851713 [2025-09-06 15:40:52.851] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:41:02.841223 [2025-09-06 15:41:02.841] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:41:12.939490 [2025-09-06 15:41:12.939] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:41:22.871812 [2025-09-06 15:41:22.871] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:41:32.995290 [2025-09-06 15:41:32.995] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:41:43.053262 [2025-09-06 15:41:43.053] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:41:52.853378 [2025-09-06 15:41:52.853] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:42:02.869737 [2025-09-06 15:42:02.869] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:42:12.863841 [2025-09-06 15:42:12.863] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:42:22.849307 [2025-09-06 15:42:22.849] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:42:32.848245 [2025-09-06 15:42:32.848] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:42:42.986086 [2025-09-06 15:42:42.986] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:42:52.869262 [2025-09-06 15:42:52.869] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:43:03.696536 [2025-09-06 15:43:03.696] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:43:13.497153 [2025-09-06 15:43:13.497] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:43:22.859256 [2025-09-06 15:43:22.859] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:43:32.854295 [2025-09-06 15:43:32.854] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:43:42.997522 [2025-09-06 15:43:42.997] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:43:53.082695 [2025-09-06 15:43:53.082] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:44:02.906191 [2025-09-06 15:44:02.906] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:44:12.846769 [2025-09-06 15:44:12.846] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:44:22.862551 [2025-09-06 15:44:22.862] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:44:32.864364 [2025-09-06 15:44:32.864] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:44:42.855120 [2025-09-06 15:44:42.855] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:44:52.848970 [2025-09-06 15:44:52.848] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:02.848480 [2025-09-06 15:45:02.848] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:12.979062 [2025-09-06 15:45:12.979] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:14.190516 [2025-09-06 15:45:14.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:16.190536 [2025-09-06 15:45:16.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:18.190485 [2025-09-06 15:45:18.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:20.190550 [2025-09-06 15:45:20.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:22.190521 [2025-09-06 15:45:22.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:22.967336 [2025-09-06 15:45:22.967] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:24.190312 [2025-09-06 15:45:24.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:26.190592 [2025-09-06 15:45:26.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:28.190621 [2025-09-06 15:45:28.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:30.190646 [2025-09-06 15:45:30.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:32.190618 [2025-09-06 15:45:32.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:32.855547 [2025-09-06 15:45:32.855] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:34.190602 [2025-09-06 15:45:34.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:36.190617 [2025-09-06 15:45:36.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:38.190626 [2025-09-06 15:45:38.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:40.190702 [2025-09-06 15:45:40.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:42.190617 [2025-09-06 15:45:42.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:42.909039 [2025-09-06 15:45:42.909] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:44.190678 [2025-09-06 15:45:44.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:46.190698 [2025-09-06 15:45:46.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:48.190669 [2025-09-06 15:45:48.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:50.190710 [2025-09-06 15:45:50.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:52.190689 [2025-09-06 15:45:52.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:52.829556 [2025-09-06 15:45:52.829] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:45:54.190759 [2025-09-06 15:45:54.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:56.190774 [2025-09-06 15:45:56.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:45:58.190769 [2025-09-06 15:45:58.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:00.190778 [2025-09-06 15:46:00.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:02.190765 [2025-09-06 15:46:02.190] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:03.164677 [2025-09-06 15:46:03.164] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:46:04.189030 [2025-09-06 15:46:04.189] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:06.184137 [2025-09-06 15:46:06.184] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:08.179840 [2025-09-06 15:46:08.179] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:10.176051 [2025-09-06 15:46:10.176] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:12.172723 [2025-09-06 15:46:12.172] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:12.817344 [2025-09-06 15:46:12.817] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:46:14.169852 [2025-09-06 15:46:14.169] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:16.167251 [2025-09-06 15:46:16.167] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:18.165015 [2025-09-06 15:46:18.165] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:20.163039 [2025-09-06 15:46:20.163] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:22.161249 [2025-09-06 15:46:22.161] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:22.944769 [2025-09-06 15:46:22.944] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:46:24.159733 [2025-09-06 15:46:24.159] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:26.158401 [2025-09-06 15:46:26.158] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:28.157178 [2025-09-06 15:46:28.157] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:30.156175 [2025-09-06 15:46:30.156] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:32.155185 [2025-09-06 15:46:32.155] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:32.809089 [2025-09-06 15:46:32.809] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:46:34.154495 [2025-09-06 15:46:34.154] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:36.153741 [2025-09-06 15:46:36.153] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:38.153131 [2025-09-06 15:46:38.153] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:40.152604 [2025-09-06 15:46:40.152] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:42.152062 [2025-09-06 15:46:42.152] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:42.797044 [2025-09-06 15:46:42.797] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:46:44.151686 [2025-09-06 15:46:44.151] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:46.151298 [2025-09-06 15:46:46.151] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:48.150928 [2025-09-06 15:46:48.150] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:50.150644 [2025-09-06 15:46:50.150] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:52.150348 [2025-09-06 15:46:52.150] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:53.363465 [2025-09-06 15:46:53.363] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:46:54.150330 [2025-09-06 15:46:54.150] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:56.149995 [2025-09-06 15:46:56.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:46:58.149832 [2025-09-06 15:46:58.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:00.149649 [2025-09-06 15:47:00.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:02.149527 [2025-09-06 15:47:02.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:02.797815 [2025-09-06 15:47:02.797] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:47:04.149468 [2025-09-06 15:47:04.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:06.149329 [2025-09-06 15:47:06.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:08.149179 [2025-09-06 15:47:08.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:10.149131 [2025-09-06 15:47:10.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:12.149156 [2025-09-06 15:47:12.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:12.805700 [2025-09-06 15:47:12.805] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:47:14.149224 [2025-09-06 15:47:14.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:16.148895 [2025-09-06 15:47:16.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:18.149096 [2025-09-06 15:47:18.149] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:20.148927 [2025-09-06 15:47:20.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:22.148996 [2025-09-06 15:47:22.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:22.957462 [2025-09-06 15:47:22.957] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:47:24.148792 [2025-09-06 15:47:24.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:26.148781 [2025-09-06 15:47:26.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:28.148489 [2025-09-06 15:47:28.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:30.148839 [2025-09-06 15:47:30.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:32.148636 [2025-09-06 15:47:32.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:32.809840 [2025-09-06 15:47:32.809] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:47:34.148771 [2025-09-06 15:47:34.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:36.148462 [2025-09-06 15:47:36.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:38.148380 [2025-09-06 15:47:38.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:40.148653 [2025-09-06 15:47:40.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:42.148677 [2025-09-06 15:47:42.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:42.804530 [2025-09-06 15:47:42.804] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:47:44.148594 [2025-09-06 15:47:44.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:46.148676 [2025-09-06 15:47:46.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:48.148604 [2025-09-06 15:47:48.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:50.148655 [2025-09-06 15:47:50.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:52.147899 [2025-09-06 15:47:52.147] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:52.809692 [2025-09-06 15:47:52.809] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:47:54.148683 [2025-09-06 15:47:54.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:56.148651 [2025-09-06 15:47:56.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:47:58.148295 [2025-09-06 15:47:58.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:00.148461 [2025-09-06 15:48:00.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:02.148196 [2025-09-06 15:48:02.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:02.814039 [2025-09-06 15:48:02.814] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:48:04.148633 [2025-09-06 15:48:04.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:06.148213 [2025-09-06 15:48:06.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:08.148584 [2025-09-06 15:48:08.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:10.148468 [2025-09-06 15:48:10.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:12.148489 [2025-09-06 15:48:12.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:12.807850 [2025-09-06 15:48:12.807] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:48:14.148008 [2025-09-06 15:48:14.147] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:16.148560 [2025-09-06 15:48:16.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:18.148518 [2025-09-06 15:48:18.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:20.148550 [2025-09-06 15:48:20.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:22.148503 [2025-09-06 15:48:22.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:22.828135 [2025-09-06 15:48:22.828] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:48:24.148844 [2025-09-06 15:48:24.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:26.148463 [2025-09-06 15:48:26.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:28.148639 [2025-09-06 15:48:28.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:30.148400 [2025-09-06 15:48:30.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:32.148395 [2025-09-06 15:48:32.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:32.799581 [2025-09-06 15:48:32.799] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:48:34.148434 [2025-09-06 15:48:34.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:36.148397 [2025-09-06 15:48:36.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:38.148408 [2025-09-06 15:48:38.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:40.148516 [2025-09-06 15:48:40.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:42.148418 [2025-09-06 15:48:42.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:42.803578 [2025-09-06 15:48:42.803] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:48:44.148329 [2025-09-06 15:48:44.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:46.148487 [2025-09-06 15:48:46.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:48.148496 [2025-09-06 15:48:48.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:50.148316 [2025-09-06 15:48:50.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:52.148335 [2025-09-06 15:48:52.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:53.102258 [2025-09-06 15:48:53.102] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:48:54.148792 [2025-09-06 15:48:54.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:56.148285 [2025-09-06 15:48:56.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:48:58.148373 [2025-09-06 15:48:58.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:00.147689 [2025-09-06 15:49:00.147] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:02.148089 [2025-09-06 15:49:02.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:04.148362 [2025-09-06 15:49:04.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:04.849829 [2025-09-06 15:49:04.849] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:49:06.148505 [2025-09-06 15:49:06.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:08.148243 [2025-09-06 15:49:08.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:10.148305 [2025-09-06 15:49:10.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:12.148467 [2025-09-06 15:49:12.148] [ERROR] [trading-engine] Position validation failed for TRXUSDT: position size 10000.00 exceeds available balance 9563.08
+2025/09/06 15:49:12.811276 [2025-09-06 15:49:12.811] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:49:23.457734 [2025-09-06 15:49:23.457] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:49:33.391322 [2025-09-06 15:49:33.391] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:49:42.798960 [2025-09-06 15:49:42.798] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:49:52.846175 [2025-09-06 15:49:52.846] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:50:02.611767 [2025-09-06 15:50:02.611] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:50:12.821541 [2025-09-06 15:50:12.821] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:50:23.050908 [2025-09-06 15:50:23.050] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:50:33.557492 [2025-09-06 15:50:33.557] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:50:43.477208 [2025-09-06 15:50:43.477] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:50:52.814247 [2025-09-06 15:50:52.814] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:51:03.874905 [2025-09-06 15:51:03.874] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:51:12.842146 [2025-09-06 15:51:12.842] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:51:23.317500 [2025-09-06 15:51:23.317] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:51:32.812538 [2025-09-06 15:51:32.812] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:51:42.819704 [2025-09-06 15:51:42.819] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:51:52.821291 [2025-09-06 15:51:52.821] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:52:02.989067 [2025-09-06 15:52:02.989] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:52:12.878328 [2025-09-06 15:52:12.878] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:52:22.835841 [2025-09-06 15:52:22.835] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:52:32.866813 [2025-09-06 15:52:32.866] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:52:42.812857 [2025-09-06 15:52:42.812] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:52:52.792556 [2025-09-06 15:52:52.792] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:53:02.822624 [2025-09-06 15:53:02.822] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:53:12.809227 [2025-09-06 15:53:12.809] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:53:22.881408 [2025-09-06 15:53:22.881] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:53:32.814426 [2025-09-06 15:53:32.814] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:53:42.800991 [2025-09-06 15:53:42.800] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:53:52.840332 [2025-09-06 15:53:52.840] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:54:02.822551 [2025-09-06 15:54:02.822] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:54:12.820743 [2025-09-06 15:54:12.820] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:54:22.818625 [2025-09-06 15:54:22.818] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:54:32.810314 [2025-09-06 15:54:32.810] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:54:42.841859 [2025-09-06 15:54:42.841] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:54:53.022242 [2025-09-06 15:54:53.022] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:55:02.799096 [2025-09-06 15:55:02.799] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:55:12.791476 [2025-09-06 15:55:12.791] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:55:22.800490 [2025-09-06 15:55:22.800] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:55:32.793403 [2025-09-06 15:55:32.793] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:55:42.806351 [2025-09-06 15:55:42.806] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:55:52.798576 [2025-09-06 15:55:52.798] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:56:02.823851 [2025-09-06 15:56:02.823] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:56:12.788164 [2025-09-06 15:56:12.788] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:56:22.792670 [2025-09-06 15:56:22.792] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:56:32.833244 [2025-09-06 15:56:32.833] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:56:42.981627 [2025-09-06 15:56:42.981] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:56:53.456985 [2025-09-06 15:56:53.456] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:57:02.784294 [2025-09-06 15:57:02.784] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:57:12.908650 [2025-09-06 15:57:12.908] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:57:22.799479 [2025-09-06 15:57:22.799] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:57:33.786421 [2025-09-06 15:57:33.786] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:57:42.987982 [2025-09-06 15:57:42.987] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:57:53.112410 [2025-09-06 15:57:53.112] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:58:03.257951 [2025-09-06 15:58:03.257] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:58:12.791942 [2025-09-06 15:58:12.791] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:58:22.791973 [2025-09-06 15:58:22.791] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 15:58:32.806694 [2025-09-06 15:58:32.806] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:58:42.793092 [2025-09-06 15:58:42.793] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:58:53.410158 [2025-09-06 15:58:53.410] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:59:03.066561 [2025-09-06 15:59:03.066] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:59:12.840888 [2025-09-06 15:59:12.840] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:59:22.793146 [2025-09-06 15:59:22.793] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:59:32.803768 [2025-09-06 15:59:32.803] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:59:42.802476 [2025-09-06 15:59:42.802] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 15:59:52.822801 [2025-09-06 15:59:52.822] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:00:05.074854 [2025-09-06 16:00:05.074] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:00:12.805542 [2025-09-06 16:00:12.805] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 16:00:22.835489 [2025-09-06 16:00:22.835] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:00:32.799660 [2025-09-06 16:00:32.799] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:00:42.803651 [2025-09-06 16:00:42.803] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:00:52.801765 [2025-09-06 16:00:52.801] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:01:02.791646 [2025-09-06 16:01:02.791] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:01:12.797664 [2025-09-06 16:01:12.797] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:01:16.161259 [2025-09-06 16:01:16.161] [INFO] [trading-engine] reason=timeout symbol=XRPUSDT Closing position due to timeout
+2025/09/06 16:01:16.161365 [2025-09-06 16:01:16.161] [INFO] [trading-engine] symbol=XRPUSDT reason=TIMEOUT pnl=-19.923862383037218 hold_time=30 exit_price=2.8051 Position closed
+2025/09/06 16:01:16.161259 [2025-09-06 16:01:16.161] [INFO] [trading-engine] symbol=BNBUSDT reason=timeout Closing position due to timeout
+2025/09/06 16:01:16.161389 [2025-09-06 16:01:16.161] [INFO] [trading-engine] symbol=BNBUSDT reason=TIMEOUT pnl=20.42459821897504 hold_time=30 exit_price=858.56 Position closed
+2025/09/06 16:01:16.161261 [2025-09-06 16:01:16.161] [INFO] [trading-engine] symbol=ADAUSDT reason=timeout Closing position due to timeout
+2025/09/06 16:01:16.161424 [2025-09-06 16:01:16.161] [INFO] [trading-engine] hold_time=30 exit_price=0.82 symbol=ADAUSDT reason=TIMEOUT pnl=-14.61276181198356 Position closed
+2025/09/06 16:01:16.161281 [2025-09-06 16:01:16.161] [INFO] [trading-engine] symbol=BTCUSDT reason=timeout Closing position due to timeout
+2025/09/06 16:01:16.161444 [2025-09-06 16:01:16.161] [INFO] [trading-engine] symbol=BTCUSDT reason=TIMEOUT pnl=3.2761193038697614 hold_time=30 exit_price=110715.99 Position closed
+2025/09/06 16:01:18.162546 [2025-09-06 16:01:18.162] [INFO] [trading-engine] quantity=11.646595700076867 confidence=75 stop_loss=850.0338 take_profit=871.4993 symbol=BNBUSDT type=BUY price=858.62 Executed buy trade
+2025/09/06 16:01:22.808124 [2025-09-06 16:01:22.808] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:01:32.807837 [2025-09-06 16:01:32.807] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:01:42.816591 [2025-09-06 16:01:42.816] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:01:52.975102 [2025-09-06 16:01:52.975] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:02:02.820818 [2025-09-06 16:02:02.820] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:02:12.822758 [2025-09-06 16:02:12.822] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:02:22.842711 [2025-09-06 16:02:22.842] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:02:32.834111 [2025-09-06 16:02:32.834] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:02:42.842119 [2025-09-06 16:02:42.842] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:02:52.836334 [2025-09-06 16:02:52.836] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:03:02.831171 [2025-09-06 16:03:02.831] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:03:12.837408 [2025-09-06 16:03:12.837] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:03:22.830225 [2025-09-06 16:03:22.830] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:03:32.836415 [2025-09-06 16:03:32.836] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:03:42.837510 [2025-09-06 16:03:42.837] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:03:52.844038 [2025-09-06 16:03:52.844] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:04:02.829086 [2025-09-06 16:04:02.829] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:04:12.841495 [2025-09-06 16:04:12.841] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:04:22.825323 [2025-09-06 16:04:22.825] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:04:32.973639 [2025-09-06 16:04:32.973] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:04:34.173406 [2025-09-06 16:04:34.173] [INFO] [trading-engine] quantity=30165.912518853693 confidence=85 stop_loss=0.328185 take_profit=0.3364725 symbol=TRXUSDT type=BUY price=0.3315 Executed buy trade
+2025/09/06 16:04:35.938843 [2025-09-06 16:04:35.938] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 16:04:35.939028 [2025-09-06 16:04:35.939] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 16:04:35.939043 [2025-09-06 16:04:35.939] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 16:04:35.939049 [2025-09-06 16:04:35.939] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 16:04:42.240794 [2025-09-06 16:04:42.240] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 16:04:42.242561 [2025-09-06 16:04:42.242] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 16:04:42.311964 [2025-09-06 16:04:42.311] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 16:04:42.312002 [2025-09-06 16:04:42.312] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 16:04:42.740088 [2025-09-06 16:04:42.740] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 16:04:43.074633 [2025-09-06 16:04:43.074] [INFO] [trading-engine] symbol=BTCUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:43.440171 [2025-09-06 16:04:43.440] [INFO] [trading-engine] symbol=ETHUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:43.570636 [2025-09-06 16:04:43.570] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:43.703061 [2025-09-06 16:04:43.703] [INFO] [trading-engine] interval=5m candles=200 symbol=XRPUSDT Successfully fetched historical klines
+2025/09/06 16:04:44.059532 [2025-09-06 16:04:44.059] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:44.390849 [2025-09-06 16:04:44.390] [INFO] [trading-engine] symbol=SOLUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:44.773045 [2025-09-06 16:04:44.773] [INFO] [trading-engine] interval=5m candles=200 symbol=DOGEUSDT Successfully fetched historical klines
+2025/09/06 16:04:44.905290 [2025-09-06 16:04:44.905] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:45.027827 [2025-09-06 16:04:45.027] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 16:04:45.387626 [2025-09-06 16:04:45.387] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:04:45.387690 [2025-09-06 16:04:45.387] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 16:04:45.387728 [2025-09-06 16:04:45.387] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 16:04:45.387761 [2025-09-06 16:04:45.387] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 16:04:45.387780 [2025-09-06 16:04:45.387] [INFO] [trading-engine] Starting trading loop
+2025/09/06 16:04:45.387830 [2025-09-06 16:04:45.387] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 16:04:45.388031 [2025-09-06 16:04:45.388] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 16:04:56.053381 [2025-09-06 16:04:56.053] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:05:06.043507 [2025-09-06 16:05:06.043] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:05:16.140351 [2025-09-06 16:05:16.140] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:05:26.040038 [2025-09-06 16:05:26.040] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:05:28.614067 [2025-09-06 16:05:28.614] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 16:05:29.389200 [2025-09-06 16:05:29.389] [INFO] [trading-engine] symbol=BNBUSDT type=BUY price=858.88 quantity=11.64307004470939 confidence=75 stop_loss=850.2912 take_profit=871.7631999999999 Executed buy trade
+2025/09/06 16:05:29.389369 [2025-09-06 16:05:29.389] [INFO] [trading-engine] symbol=XRPUSDT type=BUY price=2.8044 quantity=3565.82513193553 confidence=75 stop_loss=2.776356 take_profit=2.8464659999999995 Executed buy trade
+2025/09/06 16:05:29.389442 [2025-09-06 16:05:29.389] [INFO] [trading-engine] stop_loss=200.77200000000002 take_profit=205.84199999999998 symbol=SOLUSDT type=BUY price=202.8 quantity=49.30966469428007 confidence=75 Executed buy trade
+2025/09/06 16:05:29.389492 [2025-09-06 16:05:29.389] [INFO] [trading-engine] stop_loss=0.212058 take_profit=0.21741299999999997 symbol=DOGEUSDT type=BUY price=0.2142 quantity=46685.34080298786 confidence=75 Executed buy trade
+2025/09/06 16:05:36.055606 [2025-09-06 16:05:36.055] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:05:37.389749 [2025-09-06 16:05:37.389] [INFO] [trading-engine] take_profit=112404.28709999999 symbol=BTCUSDT type=BUY price=110743.14 quantity=0.09029904696579852 confidence=75 stop_loss=109635.7086 Executed buy trade
+2025/09/06 16:05:46.085857 [2025-09-06 16:05:46.085] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:05:56.045596 [2025-09-06 16:05:56.045] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 16:06:06.093824 [2025-09-06 16:06:06.093] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:06:16.078746 [2025-09-06 16:06:16.078] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:06:26.065290 [2025-09-06 16:06:26.065] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:06:36.060996 [2025-09-06 16:06:36.060] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:06:46.037961 [2025-09-06 16:06:46.037] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:06:56.073467 [2025-09-06 16:06:56.073] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:07:06.043320 [2025-09-06 16:07:06.043] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:07:16.037494 [2025-09-06 16:07:16.037] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:07:26.046698 [2025-09-06 16:07:26.046] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:07:36.043405 [2025-09-06 16:07:36.043] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:07:46.064446 [2025-09-06 16:07:46.064] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:07:56.054651 [2025-09-06 16:07:56.054] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:08:06.079267 [2025-09-06 16:08:06.079] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:08:16.043513 [2025-09-06 16:08:16.043] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:08:26.061492 [2025-09-06 16:08:26.061] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:08:36.053524 [2025-09-06 16:08:36.053] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:08:46.152219 [2025-09-06 16:08:46.152] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:08:48.250523 [2025-09-06 16:08:48.250] [INFO] [trading-engine] Shutting down trading engine...
+2025/09/06 16:08:48.250665 [2025-09-06 16:08:48.250] [INFO] [trading-engine] Stopping trading engine...
+2025/09/06 16:08:48.250678 [2025-09-06 16:08:48.250] [INFO] [trading-engine] Trading engine stopped
+2025/09/06 16:08:48.250685 [2025-09-06 16:08:48.250] [INFO] [trading-engine] Trading engine shutdown complete
+2025/09/06 16:08:58.896092 [2025-09-06 16:08:58.896] [INFO] [trading-engine] Starting Trading Engine v2.0 - Optimized
+2025/09/06 16:08:58.897818 [2025-09-06 16:08:58.897] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+2025/09/06 16:08:58.967052 [2025-09-06 16:08:58.967] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+2025/09/06 16:08:58.967081 [2025-09-06 16:08:58.967] [INFO] [trading-engine] Starting trading engine...
+2025/09/06 16:08:59.433136 [2025-09-06 16:08:59.433] [INFO] [trading-engine] Initializing historical data...
+2025/09/06 16:08:59.853343 [2025-09-06 16:08:59.853] [INFO] [trading-engine] candles=200 symbol=BTCUSDT interval=5m Successfully fetched historical klines
+2025/09/06 16:09:00.267212 [2025-09-06 16:09:00.267] [INFO] [trading-engine] interval=5m candles=200 symbol=ETHUSDT Successfully fetched historical klines
+2025/09/06 16:09:00.399104 [2025-09-06 16:09:00.399] [INFO] [trading-engine] symbol=BNBUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:09:00.735596 [2025-09-06 16:09:00.735] [INFO] [trading-engine] interval=5m candles=200 symbol=XRPUSDT Successfully fetched historical klines
+2025/09/06 16:09:01.083700 [2025-09-06 16:09:01.083] [INFO] [trading-engine] symbol=ADAUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:09:01.495882 [2025-09-06 16:09:01.495] [INFO] [trading-engine] candles=200 symbol=SOLUSDT interval=5m Successfully fetched historical klines
+2025/09/06 16:09:01.627685 [2025-09-06 16:09:01.627] [INFO] [trading-engine] symbol=DOGEUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:09:02.003527 [2025-09-06 16:09:02.003] [INFO] [trading-engine] symbol=TRXUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:09:02.128636 [2025-09-06 16:09:02.128] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}
+2025/09/06 16:09:02.255233 [2025-09-06 16:09:02.255] [INFO] [trading-engine] symbol=DOTUSDT interval=5m candles=200 Successfully fetched historical klines
+2025/09/06 16:09:02.255286 [2025-09-06 16:09:02.255] [INFO] [trading-engine] Historical data initialization completed
+2025/09/06 16:09:02.255308 [2025-09-06 16:09:02.255] [INFO] [trading-engine] Trading engine started successfully
+2025/09/06 16:09:02.255337 [2025-09-06 16:09:02.255] [INFO] [trading-engine] Starting real-time data fetching
+2025/09/06 16:09:02.255363 [2025-09-06 16:09:02.255] [INFO] [trading-engine] Starting position monitoring
+2025/09/06 16:09:02.255371 [2025-09-06 16:09:02.255] [INFO] [trading-engine] Starting trading loop
+2025/09/06 16:09:02.255980 [2025-09-06 16:09:02.255] [INFO] [trading-engine] Starting HTTP server on port 8080
+2025/09/06 16:09:12.924443 [2025-09-06 16:09:12.924] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:09:20.216678 [2025-09-06 16:09:20.216] [INFO] [trading-engine] Automated trading enabled
+2025/09/06 16:09:20.256627 [2025-09-06 16:09:20.256] [INFO] [trading-engine] confidence=75 stop_loss=109652.4 take_profit=112421.4 symbol=BTCUSDT type=BUY price=110760 quantity=0.09028530155290719 Executed buy trade
+2025/09/06 16:09:20.256832 [2025-09-06 16:09:20.256] [INFO] [trading-engine] confidence=85 stop_loss=850.0635 take_profit=871.5297499999999 symbol=BNBUSDT type=BUY price=858.65 quantity=11.6461887847202 Executed buy trade
+2025/09/06 16:09:20.256923 [2025-09-06 16:09:20.256] [INFO] [trading-engine] symbol=XRPUSDT type=BUY price=2.8056 quantity=3564.2999714856 confidence=75 stop_loss=2.7775440000000002 take_profit=2.8476839999999997 Executed buy trade
+2025/09/06 16:09:20.256977 [2025-09-06 16:09:20.256] [INFO] [trading-engine] take_profit=205.92319999999998 symbol=SOLUSDT type=BUY price=202.88 quantity=49.290220820189276 confidence=75 stop_loss=200.8512 Executed buy trade
+2025/09/06 16:09:20.257030 [2025-09-06 16:09:20.257] [INFO] [trading-engine] price=0.21437 quantity=46648.31832812427 confidence=75 stop_loss=0.2122263 take_profit=0.21758555 symbol=DOGEUSDT type=BUY Executed buy trade
+2025/09/06 16:09:22.922328 [2025-09-06 16:09:22.922] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:09:32.918501 [2025-09-06 16:09:32.918] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:09:42.911131 [2025-09-06 16:09:42.911] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:09:52.921415 [2025-09-06 16:09:52.921] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:10:02.723195 [2025-09-06 16:10:02.723] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:10:12.919761 [2025-09-06 16:10:12.919] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:10:22.920964 [2025-09-06 16:10:22.920] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:10:32.926757 [2025-09-06 16:10:32.926] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:10:42.911852 [2025-09-06 16:10:42.911] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:10:52.911207 [2025-09-06 16:10:52.911] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:11:02.957975 [2025-09-06 16:11:02.957] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:11:12.901660 [2025-09-06 16:11:12.901] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:11:22.927199 [2025-09-06 16:11:22.927] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 16:11:32.923008 [2025-09-06 16:11:32.922] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:11:43.058237 [2025-09-06 16:11:43.058] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:11:52.924359 [2025-09-06 16:11:52.924] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:12:02.911632 [2025-09-06 16:12:02.911] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:12:12.964705 [2025-09-06 16:12:12.964] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:12:22.925604 [2025-09-06 16:12:22.925] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:12:32.916803 [2025-09-06 16:12:32.916] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:12:42.915839 [2025-09-06 16:12:42.915] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:12:52.909976 [2025-09-06 16:12:52.909] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:13:02.909435 [2025-09-06 16:13:02.909] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:13:12.922829 [2025-09-06 16:13:12.922] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:13:22.909056 [2025-09-06 16:13:22.909] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:13:32.904984 [2025-09-06 16:13:32.904] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:13:42.893564 [2025-09-06 16:13:42.893] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:13:52.913606 [2025-09-06 16:13:52.913] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:14:02.920590 [2025-09-06 16:14:02.920] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:14:12.914395 [2025-09-06 16:14:12.914] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:14:22.976369 [2025-09-06 16:14:22.976] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:14:32.949386 [2025-09-06 16:14:32.949] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:14:42.903669 [2025-09-06 16:14:42.903] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:14:52.919965 [2025-09-06 16:14:52.919] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:15:02.913071 [2025-09-06 16:15:02.913] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 16:15:12.910098 [2025-09-06 16:15:12.910] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:15:22.913488 [2025-09-06 16:15:22.913] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 16:15:32.916938 [2025-09-06 16:15:32.916] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:15:42.942456 [2025-09-06 16:15:42.942] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:15:52.919787 [2025-09-06 16:15:52.919] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:16:02.917399 [2025-09-06 16:16:02.917] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:16:12.916963 [2025-09-06 16:16:12.916] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:16:22.930493 [2025-09-06 16:16:22.930] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:16:32.913844 [2025-09-06 16:16:32.913] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:16:42.912544 [2025-09-06 16:16:42.912] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:16:53.565515 [2025-09-06 16:16:53.565] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:17:02.912324 [2025-09-06 16:17:02.912] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:17:13.043216 [2025-09-06 16:17:13.043] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:17:22.913967 [2025-09-06 16:17:22.913] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:17:32.917656 [2025-09-06 16:17:32.917] [INFO] [trading-engine] symbols_found=9 symbols_requested=10 Successfully fetched prices from Binance
+2025/09/06 16:17:42.909494 [2025-09-06 16:17:42.909] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance
+2025/09/06 16:17:52.913531 [2025-09-06 16:17:52.913] [INFO] [trading-engine] symbols_requested=10 symbols_found=9 Successfully fetched prices from Binance

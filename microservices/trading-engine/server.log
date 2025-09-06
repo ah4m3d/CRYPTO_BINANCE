@@ -1,0 +1,4 @@
+2025/09/06 14:31:54 🧪 Using Binance Testnet
+[2025-09-06 14:31:54.977] [WARN] [trading-engine] Failed to initialize database, running without persistence: failed to ping database: dial tcp [::1]:5432: connect: connection refused
+[2025-09-06 14:31:55.046] [WARN] [trading-engine] Failed to initialize cache, running without Redis: failed to connect to Redis: dial tcp [::1]:6379: connect: connection refused
+[2025-09-06 14:31:58.090] [ERROR] [trading-engine] Failed to fetch historical data for MATICUSDT: API error: status=400, body={"code":-1121,"msg":"Invalid symbol."}

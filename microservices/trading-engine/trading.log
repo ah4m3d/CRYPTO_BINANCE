@@ -1,0 +1,40 @@
+2025/09/06 14:20:44 🚀 Starting Trading Engine Microservice...
+2025/09/06 14:20:44 🔴 Using Binance Live Network
+2025/09/06 14:20:44 🔄 Starting real-time data fetching from Binance...
+2025/09/06 14:20:44 🤖 Trading loop started - monitoring for signals...
+2025/09/06 14:20:44 📊 Initializing historical data for technical analysis...
+2025/09/06 14:20:44 🎯 Trading Engine running on http://localhost:8080
+2025/09/06 14:20:44 📊 WebSocket endpoint: ws://localhost:8080/ws
+2025/09/06 14:20:44 🔗 API endpoint: http://localhost:8080/api
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for DOTUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for BNBUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for XRPUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for ADAUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for DOGEUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for ETHUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for MATICUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for SOLUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for BTCUSDT
+2025/09/06 14:20:45 ✅ Loaded 200 historical candles for TRXUSDT
+2025/09/06 14:20:50 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:20:55 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:00 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:05 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:10 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:15 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:20 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:25 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:30 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:35 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:40 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:45 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:50 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:21:55 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:00 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:05 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:10 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:15 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:20 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:25 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:30 ✅ Updated real-time data for 10 symbols
+2025/09/06 14:22:35 ✅ Updated real-time data for 10 symbols
