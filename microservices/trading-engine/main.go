@@ -482,19 +482,16 @@ func (app *Application) websocketHandler(w http.ResponseWriter, r *http.Request)
 
 // WebSocket broadcast handlers
 func (app *Application) handleWebSocketBroadcasts() {
-	for {
-		select {
-		case message := <-app.broadcast:
-			app.clientsMutex.RLock()
-			for client := range app.clients {
-				err := client.WriteMessage(websocket.TextMessage, message)
-				if err != nil {
-					client.Close()
-					delete(app.clients, client)
-				}
+	for message := range app.broadcast {
+		app.clientsMutex.RLock()
+		for client := range app.clients {
+			err := client.WriteMessage(websocket.TextMessage, message)
+			if err != nil {
+				client.Close()
+				delete(app.clients, client)
 			}
-			app.clientsMutex.RUnlock()
 		}
+		app.clientsMutex.RUnlock()
 	}
 }
 
